@@ -1,0 +1,95 @@
+/* main.css */
+body, h1, p, ul {
+  margin: 0;
+  padding: 0;
+  background-color: 		lemonchiffon;
+}
+
+h1, p {
+  text-align: center;
+ color: black;
+}
+
+
+h1 {
+  font-size: 2vw;
+}
+
+p {
+  font-size: 2vw;
+}
+.anhnhomnho {
+  position: relative;
+  width: 100px;
+  left: 20px;
+  top: 20px;
+  height: auto;
+  border-radius: 100px; 
+}
+.imgnhom {
+  text-align: center;
+}
+
+
+.imgnhom img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 100px; 
+}
+
+
+.onecha {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.one {
+  margin: 20px;
+  text-align: center;
+  flex: 1 1 200px; 
+}
+
+.one ul {
+  list-style: none; 
+}
+
+.one img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%; 
+}
+
+
+.vid {
+  text-align: center;
+}
+
+
+.vid video {
+  border-radius: 20px; 
+}
+
+
+footer {
+  background-color: lemonchiffon;
+  padding: 20px;
+  text-align: center;
+}
+
+footer i {
+  margin: 0 10px;
+  font-size: 2vw;
+  color: #333; 
+  cursor: pointer; 
+}
+
+footer i:hover {
+  color: #555; 
+}
+.anhnhomnho img {
+width: 200px; 
+height: auto;
+border-radius: 50%; 
+}
